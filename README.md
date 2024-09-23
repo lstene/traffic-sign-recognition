@@ -2,8 +2,7 @@
 
 ### **Objective**
 
-In this study, I aim to develop convolutional neural network (CNN) models tailored to accurately classify traffic signs in Ecuador. By focusing on region-specific training data, my goal is to enhance the precision and robustness of traffic sign recognition systems under diverse conditions. This research could significantly contribute to the safety and efficiency of autonomous and assisted driving technologies in Ecuador, fostering their wider adoption in the local market. My models will be trained to recognize traffic signs in various scenarios, including different weather patterns and potential alterations caused by environmental factors or human interference.
-This project develops deep learning models for traffic sign recognition in Ecuador. Using CNNs, it improves recognition of ‘Stop,’ ‘Yield,’ traffic lights, and speed limits. A dataset of 5322 images was created, and a regularized CNN achieved 91% accuracy on validation data, highlighting the value of robust datasets and regularization.
+In this study, I aim to develop convolutional neural network (CNN) models tailored to accurately classify traffic signs in Ecuador. By focusing on region-specific training data, my goal is to enhance the precision and robustness of traffic sign recognition systems under diverse conditions. This research could significantly contribute to the safety and efficiency of autonomous and assisted driving technologies in Ecuador, fostering their wider adoption in the local market. This project develops deep learning models for traffic sign recognition in Ecuador. Using CNNs, it improves recognition of ‘Stop,’ ‘Yield,’ traffic lights, and speed limits. 
 
 ### **Tools and Methodologies**
 
@@ -47,7 +46,9 @@ Here are a few predictions made by the model and the metrics it had after evalua
 
 ### **Reflections**
 
-After analyzing the cycle iteration, we found that the training time for the regularized convolutional model was significant, taking approximately twelve hours. For future iterations, utilizing different hardware configurations may prove beneficial. While the TPU outperformed the standard graphics cards available on Google Colab, evaluating the performance of other GPUs, such as the NVIDIA A1000, could offer further improvements. Additionally, the data-loading process was notably time-consuming. A more efficient approach would involve loading the image dataset into Google Drive, storing it there, and accessing it directly from the cloud. This method would mitigate the issues associated with the volatile execution environment and potentially reduce data loading times.
+After analyzing the cycle iteration, we found that the training time for the regularized convolutional model was significant, taking approximately twelve hours. For future iterations:
+- Utilizing different hardware configurations may prove beneficial. While the TPU outperformed the standard graphics cards available on Google Colab, evaluating the performance of other GPUs, such as the NVIDIA A1000, could offer further improvements.
+- Data-loading process was notably time-consuming. A more efficient approach would involve loading the image dataset into Google Drive, storing it there, and accessing it directly from the cloud. This method would mitigate the issues associated with the volatile execution environment and potentially reduce data loading times.
 
 ### **Next Steps**
 
