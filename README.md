@@ -29,7 +29,7 @@ The exploratory analysis left the final dataset in a total of 5722 images. From 
 
 ### CNN with regularization
 
-This last model outperforms the other two. It includes dropout and regularization layers that help the model prevent overfit. This one achieves a 0.91 precision
+This model includes dropout and regularization layers, besides from the convolutional and aggrupation neurons, that help the model prevent overfit. This one achieves a 0.91 precision
 
 ### **Challenges and Solutions**
 
@@ -65,5 +65,3 @@ This study has successfully demonstrated the development and evaluation of deep 
 The findings underscore the importance of using region-specific data and advanced data augmentation techniques to enhance model performance and mitigate overfitting. Additionally, our study highlights the critical role of regularization in preventing overfitting and improving model reliability.
 Despite the positive results, the study faced limitations, such as the narrow scope of traffic sign categories and the small dataset size. Future research should focus on expanding the dataset to include a wider variety of traffic signs and collecting more data to improve model generalization. Optimizing training and evaluation using advanced hardware configurations and exploring advanced deep learning techniques, such as transfer learning, are also recommended.
 Testing the models in real-world driving conditions is essential to assess their practical usability and effectiveness. By addressing these areas, future research can further realize the full potential of AI-driven traffic sign recognition systems, enhancing the safety and reliability of autonomous and assisted driving technologies in Ecuador and beyond.
-
-For a deeper dive into the methodologies and data, the project's GitHub repository is available at [GitHub Repository](https://github.com/lstene/traffic-sign-recognition).
