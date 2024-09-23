@@ -23,7 +23,7 @@ The images were reviewed individually in order to determine which one fitted the
 
 The exploratory analysis left the final dataset in a total of 5722 images. From this 5322 were used for training and validation. 400 served as testing. All the training-validation images were modified with data augmentation techniques for better training of the models.
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/ffd29d6c-74da-4c04-b4b4-a11f5a89a3a9/0c2af46c-a0c2-4d9b-9e48-582fb31880c3/Untitled.png)
+![data](data.png)
 
 ## Modeling
 
@@ -39,9 +39,9 @@ One significant challenge was the lack of images available in Ecuador, specially
 
 Here are a few predictions made by the model and the metrics it had after evaluation
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/ffd29d6c-74da-4c04-b4b4-a11f5a89a3a9/e6a560f9-7ba5-4ea6-85f0-bbbd9a7fb677/Untitled.png)
+![predictions1](predictions1.png)
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/ffd29d6c-74da-4c04-b4b4-a11f5a89a3a9/a6a21922-9477-49ce-ba80-ebe0ac82d57c/Untitled.png)
+![predictions1](predictions2.png)
 
 # **End Results and Recommendations**
 
